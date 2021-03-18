@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rn_restaurantsapp_with_maps"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.54.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.54.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+14-->[:react-native-maps] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+14-->[:react-native-maps] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+20
+21    <application
+21-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:6:5-29:19
+22        android:name="com.rn_restaurantsapp_with_maps.MainApplication"
+22-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:7:7-38
+23        android:allowBackup="false"
+23-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:11:7-34
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.2.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/1667af20f7c5fbd17b27fd9fd70bfb91/core-1.2.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:9:7-41
+27        android:label="@string/app_name"
+27-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:8:7-39
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:10:7-52
+29        android:theme="@style/AppTheme"
+29-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:12:7-38
+30        android:usesCleartextTraffic="true" >
+30-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/debug/AndroidManifest.xml:7:18-53
+31        <activity
+31-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:13:7-23:18
+32            android:name="com.rn_restaurantsapp_with_maps.MainActivity"
+32-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:14:9-37
+33            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+33-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:16:9-86
+34            android:label="@string/app_name"
+34-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:15:9-41
+35            android:launchMode="singleTask"
+35-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:17:9-40
+36            android:windowSoftInputMode="adjustResize" >
+36-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:18:9-51
+37            <intent-filter>
+37-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:19:9-22:25
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:20:13-65
+38-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:20:21-62
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:21:13-73
+40-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:21:23-70
+41            </intent-filter>
+42        </activity>
+43        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+43-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:24:7-84
+43-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:24:17-81
+44
+45        <meta-data
+45-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:25:7-27:66
+46            android:name="com.google.android.geo.API_KEY"
+46-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:26:9-54
+47            android:value="AIzaSyBDCq0No5mZZHxD87d_hYKlrFK8FDMDszE" />
+47-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:27:9-64
+48
+49        <uses-library
+49-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:28:9-87
+50            android:name="org.apache.http.legacy"
+50-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:28:23-60
+51            android:required="false" />
+51-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_Reastaurants_withMap/android/app/src/main/AndroidManifest.xml:28:61-85
+52
+53        <activity
+53-->[com.google.android.gms:play-services-base:17.2.1] /Users/ysf/.gradle/caches/transforms-2/files-2.1/056b9a1220e90bc174f62a185df6eb71/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+54            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+54-->[com.google.android.gms:play-services-base:17.2.1] /Users/ysf/.gradle/caches/transforms-2/files-2.1/056b9a1220e90bc174f62a185df6eb71/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+55            android:exported="false"
+55-->[com.google.android.gms:play-services-base:17.2.1] /Users/ysf/.gradle/caches/transforms-2/files-2.1/056b9a1220e90bc174f62a185df6eb71/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+56            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+56-->[com.google.android.gms:play-services-base:17.2.1] /Users/ysf/.gradle/caches/transforms-2/files-2.1/056b9a1220e90bc174f62a185df6eb71/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+57
+58        <meta-data
+58-->[com.google.android.gms:play-services-basement:17.2.1] /Users/ysf/.gradle/caches/transforms-2/files-2.1/b4d703fdb466b08287947947c830acb8/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+59            android:name="com.google.android.gms.version"
+59-->[com.google.android.gms:play-services-basement:17.2.1] /Users/ysf/.gradle/caches/transforms-2/files-2.1/b4d703fdb466b08287947947c830acb8/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+60            android:value="@integer/google_play_services_version" />
+60-->[com.google.android.gms:play-services-basement:17.2.1] /Users/ysf/.gradle/caches/transforms-2/files-2.1/b4d703fdb466b08287947947c830acb8/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+61    </application>
+62
+63</manifest>

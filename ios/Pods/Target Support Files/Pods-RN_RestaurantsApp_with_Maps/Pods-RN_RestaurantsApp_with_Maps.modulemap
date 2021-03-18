@@ -1,0 +1,6 @@
+module Pods_RN_RestaurantsApp_with_Maps {
+  umbrella header "Pods-RN_RestaurantsApp_with_Maps-umbrella.h"
+
+  export *
+  module * { export * }
+}
