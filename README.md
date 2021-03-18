@@ -1,4 +1,4 @@
-# RN_Reastaurants_withMap
+# Restaurant_Map_App
 
 
 ## Description
