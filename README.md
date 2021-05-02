@@ -1,4 +1,4 @@
-# Restaurant_Map_App
+# Restaurant Map App
 
 
 ## Description
